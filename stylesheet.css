@@ -48,7 +48,7 @@ a {
 
 section.recpção{
     height: 900px;
-    background-image: url('../plataforma-impact/img/recepcao.png');
+    background-image: url('./img/recepcao.png');
     background-repeat: no-repeat;
     background-size: cover;    
       
