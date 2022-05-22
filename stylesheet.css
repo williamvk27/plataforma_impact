@@ -1,0 +1,246 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=IBM+Plex+Sans:wght@500&display=swap');
+
+
+header{
+    
+    height: 150px;
+    background-color: rgba(12, 136, 136, 0.966);
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav{
+    
+    display: flex;
+    
+    
+    
+}
+
+header nav ul {
+    padding: 55px 40px 0px 30px;
+    
+    margin-right: 0px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 20px;
+  
+    
+}
+
+body{
+    font-size: 20px;
+}
+
+
+a {
+    color: white;
+    margin-left: 0px;
+    text-decoration: none;
+}
+
+
+
+section.recpção{
+    height: 900px;
+    background-image: url('../plataforma_impact_site/img/recepcao.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+      
+}
+
+.título{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 68px;
+    color: white;
+    padding: 350px 55px 0px 55px;
+    margin-left: -30px;
+
+}
+
+
+#sobre, h1{
+    font-size: 30px;
+    margin: 50px;
+    text-align: center;
+}
+
+article{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.display_none{
+    display: none;
+}
+
+
+
+.block{
+    display: inline-block;
+}
+
+.multiespecialidades{
+   
+    margin-top: 100px;
+    text-align: center;
+}
+
+.multiespecialidades h2{
+    margin-bottom: 20px;
+  
+}
+
+#especialidades{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+    
+}
+#especialidades div{
+    border: 1px solid black;
+    height: 320px;
+    width: 400px;
+    text-align: center;
+    margin-top: 70px;        
+    
+}
+
+#especialidades h2{
+    margin-top: 20px;
+}
+
+#especialidades img{
+    width: 400px;
+
+    
+}
+
+section.horario{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    height: 50px;
+    color: white;          
+   
+}
+
+button{
+    background-color: rgba(12, 136, 136, 0.966);
+    width: 150px;
+    border: white;
+    text-decoration: none;
+}
+
+#contato{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.contato p{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.mapa{
+    
+    display: flex;
+    align-items: center;
+    
+    width: 1940px;
+    
+}
+
+
+footer{
+    color: white;
+    margin-top: 50px;
+    background-color: rgba(12, 136, 136, 0.966);
+    text-align: center;
+    height: 200px;
+}
+
+footer img{
+    width: 200px;
+    height: 100px;
+
+}
+
+
+@media screen and (max-width: 600px) {
+    
+    header{
+        
+        display: flex;
+        height: 200px;
+
+    }
+
+    header, ul , a{
+        margin: 0px;
+        padding: 0px;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        color: black;
+    }
+
+    .título{
+
+        font-size: 60px;
+
+    }
+    
+    
+    .medico{
+        display:none;
+    }
+
+    #especialidades{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+
+    .título {
+        display: flex;
+        flex-direction: column;
+        padding-top: 200px;
+        
+            
+        
+    }
+
+    .mapa{
+        height: 620px;
+        width: 100%;
+    }
+
+}
+
+
+
+
+@media screen and (max-width: 1024px){
+
+
+    .título{
+        text-align: justify;
+    }
+
+    .mapa{
+        height: auto;
+        width: 100%;
+    }
+
+}
