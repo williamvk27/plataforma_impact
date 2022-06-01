@@ -224,10 +224,15 @@ footer img{
             
         
     }
+    
+    .recpção{
+        display: none;
+    }
 
     
 
     .mapa{
+        display: none;
         height: 620px;
         width: 100%;
     }

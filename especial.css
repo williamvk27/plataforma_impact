@@ -140,21 +140,34 @@ footer img{
 }
 
 @media screen and (max-width: 600px) {
+  
+    
     header{
+      
         
         display: flex;
         height: 200px;
+       
     }
 
     header, ul , a{
         margin: 0px;
-        margin-top: 10px;
+        
         padding: 0px;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
         color: black;
         font-size: 15px;
+    }
+
+    .link1{
+        font-size: 20px;
+        color: black;
+    }
+
+    a.link2{
+        margin-top: 45px;
     }
 
     .imgortopedia{
