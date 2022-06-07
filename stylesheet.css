@@ -1,10 +1,13 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box
 }
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Bitter&family=IBM+Plex+Sans:wght@500&display=swap');
+
+
 
 
 header{
@@ -34,6 +37,7 @@ header nav ul {
 }
 
 body{
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 20px;
 }
 
@@ -105,11 +109,12 @@ article{
     
 }
 #especialidades div{
-    border: 1px solid black;
-    height: 320px;
+    border: 1px solid rgb(214, 209, 209);
+    height: 340px;
     width: 400px;
     text-align: center;
     margin-top: 70px;        
+    border-radius: 15px;        
     
 }
 
@@ -119,7 +124,8 @@ article{
 
 #especialidades img{
     width: 400px;
-
+    border-radius: 15px;
+    padding: 4px;
     
 }
 
@@ -139,7 +145,7 @@ button{
     text-decoration: none;
 }
 
-#contato{
+#contato p{
     text-align: center;
     margin-top: 30px;
 }
@@ -153,7 +159,6 @@ button{
     
     display: flex;
     align-items: center;
-    
     width: 1940px;
     
 }
