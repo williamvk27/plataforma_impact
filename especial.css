@@ -3,6 +3,7 @@
     margin: 0;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=IBM+Plex+Sans:wght@500&display=swap');
 
 header{
     
@@ -32,6 +33,7 @@ header nav ul {
 
 body{
     font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .link1{
