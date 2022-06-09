@@ -42,7 +42,7 @@ header nav ul {
 body{
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 20px;
-    background-color: #FFF5EE;
+    background-color: 	#F5F5F5;
 }
 
 
@@ -55,7 +55,7 @@ a {
 
 section.recpção{
     height: 900px;
-    background-image: url('./img/recepcao2.jpg');
+    background-image: url('../img/recepcao2.jpg');
     background-repeat: no-repeat;
     background-size: cover;    
       
@@ -183,6 +183,11 @@ button{
     width: 100%;
     padding: 10% 5% 10% 10%;
     
+}
+
+.linkwpp{
+    text-decoration: none;
+    color: black;
 }
 
 
