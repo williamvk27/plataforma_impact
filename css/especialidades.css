@@ -160,6 +160,11 @@ footer img{
 
 }
 
+.linkwpp2{
+    text-decoration: none;
+    color: white;
+}
+
 
 @media screen and (max-width: 600px) {
      
