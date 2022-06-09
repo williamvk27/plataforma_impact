@@ -3,11 +3,11 @@
     margin: 0;
     box-sizing: border-box
 }
+
+
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Bitter&family=IBM+Plex+Sans:wght@500&display=swap');
-
-
 
 
 header{
@@ -18,6 +18,7 @@ header{
     justify-content: space-between;
 }
 
+
 header nav{
     
     display: flex;
@@ -25,6 +26,7 @@ header nav{
     
     
 }
+
 
 header nav ul {
     padding: 55px 40px 0px 30px;
@@ -36,9 +38,11 @@ header nav ul {
     
 }
 
+
 body{
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 20px;
+    background-color: #FFF5EE;
 }
 
 
@@ -49,7 +53,6 @@ a {
 }
 
 
-
 section.recpção{
     height: 900px;
     background-image: url('./img/recepcao2.jpg');
@@ -57,6 +60,8 @@ section.recpção{
     background-size: cover;    
       
 }
+
+
 
 .título{
     font-family: 'IBM Plex Sans', sans-serif;
@@ -80,15 +85,16 @@ article{
     
 }
 
+
 .display_none{
     display: none;
 }
 
 
-
 .block{
     display: inline-block;
 }
+
 
 .multiespecialidades{
    
@@ -96,10 +102,12 @@ article{
     text-align: center;
 }
 
+
 .multiespecialidades h2{
     margin-bottom: 20px;
   
 }
+
 
 #especialidades{
     display: flex;
@@ -109,25 +117,27 @@ article{
     
 }
 #especialidades div{
-    border: 1px solid rgb(214, 209, 209);
+    
     height: 340px;
     width: 400px;
     text-align: center;
     margin-top: 70px;        
-    border-radius: 15px;        
-    
+            
 }
 
 #especialidades h2{
     margin-top: 20px;
 }
 
+
 #especialidades img{
     width: 400px;
     border-radius: 15px;
     padding: 4px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     
 }
+
 
 section.horario{
     display: flex;
@@ -138,6 +148,7 @@ section.horario{
    
 }
 
+
 button{
     background-color: rgba(12, 136, 136, 0.966);
     width: 150px;
@@ -145,21 +156,32 @@ button{
     text-decoration: none;
 }
 
+
 #contato p{
+    
     text-align: center;
-    margin-top: 30px;
+    margin-top: 20px;
+    margin-left: 25px;
 }
+
 
 .contato p{
     text-align: center;
     margin-top: 30px;
+    margin-left: 25px;
+    
 }
+
 
 .mapa{
     
+    margin: 0 auto;
     display: flex;
     align-items: center;
-    width: 1940px;
+    justify-content: center;
+    
+    width: 100%;
+    padding: 10% 5% 10% 10%;
     
 }
 
@@ -171,6 +193,7 @@ footer{
     text-align: center;
     height: 200px;
 }
+
 
 footer img{
     width: 200px;
@@ -245,7 +268,6 @@ footer img{
 
    
 }
-
 
 
 
