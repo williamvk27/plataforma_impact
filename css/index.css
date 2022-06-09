@@ -209,7 +209,7 @@ footer img{
 
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 320px) {
     header{
         display: flex;
         width: 100%;
