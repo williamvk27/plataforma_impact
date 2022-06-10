@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    scroll-behavior: smooth;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Bitter&family=IBM+Plex+Sans:wght@500&display=swap');
