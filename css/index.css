@@ -10,31 +10,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitter&family=IBM+Plex+Sans:wght@500&display=swap');
 
 
+
 header{
     
     height: 150px;
     background-color: rgba(12, 136, 136, 0.966);
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
 }
 
 
 header nav{
-    
+   
     display: flex;
-    
-    
+    margin-bottom: 50px;   
     
 }
 
 
 header nav ul {
-    padding: 55px 40px 0px 30px;
-    
+    padding: 55px 40px 0px 30px;    
     margin-right: 0px;
     font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 20px;
-  
+    font-size: 20px;  
     
 }
 
@@ -42,14 +41,18 @@ header nav ul {
 body{
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 20px;
-    background-color: 	#F5F5F5;
+    background-color:#F5F5F5;
 }
 
 
 a {
-    color: white;
+    color: #1C1C1C;
     margin-left: 0px;
     text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 19px;
+    
 }
 
 
@@ -66,7 +69,7 @@ section.recpção{
 .título{
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 68px;
-    color: white;
+    color: #1C1C1C;
     padding: 350px 55px 0px 55px;
     margin-left: -30px;
 
@@ -149,16 +152,23 @@ section.horario{
 }
 
 
-button{
-    background-color: rgba(12, 136, 136, 0.966);
-    width: 150px;
-    border: white;
-    text-decoration: none;
+
+
+.box-mapa{
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 
+
+
+
+
+
 #contato p{
-    
+   
     text-align: center;
     margin-top: 20px;
     margin-left: 25px;
@@ -166,6 +176,7 @@ button{
 
 
 .contato p{
+    
     text-align: center;
     margin-top: 30px;
     margin-left: 25px;
@@ -173,17 +184,6 @@ button{
 }
 
 
-.mapa{
-    
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-    width: 100%;
-    padding: 10% 5% 10% 10%;
-    
-}
 
 .linkwpp{
     text-decoration: none;
@@ -212,9 +212,13 @@ footer img{
 @media screen and (max-width: 844px) {
 
     header nav ul{
-        font-size: 18px;
+        font-size: 15px;
         padding: 45px 19px 0px 18px;
     
+    }
+    
+    a{
+        font-size: 15px;
     }
 
     #especialidades img{
@@ -225,7 +229,7 @@ footer img{
 
     .block{
         font-size: 15px;
-        color: yellow;
+        
     }
 
 }

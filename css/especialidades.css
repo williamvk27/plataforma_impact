@@ -10,23 +10,36 @@ header{
     height: 150px;
     background-color: rgba(12, 136, 136, 0.966);
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+    
 }
+
 
 header nav{
     
     display: flex;
-    
-    
+    margin-bottom: 50px;   
     
 }
 
+
 header nav ul {
-    padding: 55px 40px 0px 30px;
-    
+    padding: 55px 40px 0px 30px;    
     margin-right: 0px;
     font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 20px;    
+    font-size: 20px;
+      
+}
+
+
+a{
+    color: #1C1C1C;
+    margin-left: 0px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 19px;
 }
 
 
@@ -37,8 +50,10 @@ body{
 }
 
 
+
+
 .link1{
-    color: white;
+    color: #1C1C1C;
     margin-left: 0px;
     text-decoration: none;
 }
@@ -54,8 +69,9 @@ body{
 
 
 .link2{
-    color: black;
-    font-size: 20px;
+    margin-top: 25px;
+    color: #1C1C1C;
+    font-size: 18px;
     text-decoration: underline aqua;
     
     
@@ -66,24 +82,25 @@ h2{
     text-align: center;
     margin-top: 100px;
     margin-bottom: 30px;
-    color: darkgray;
+    color: black;
 }
 
 
-p{
+p{  
+    text-align: justify;
     text-align: center;
     
 }
 
 
-#ortopedia1{
+#box{
     display: flex;
     justify-content: center;
     margin: 30px;
 }
 
 
-.imgortopedia{
+.imgmedicos{
    
     width: 400px;
     height: 200px;
@@ -91,33 +108,6 @@ p{
    
 }
 
-
-#pediatria1{
-    display: flex;
-    justify-content: center;
-    margin: 30px;
-}
-
-
-#geriatria1{
-    display: flex;
-    justify-content: center;
-    margin: 30px;
-}
-
-
-#psicologo1{
-    display: flex;
-    justify-content: center;
-    margin: 30px;
-}
-
-
-#fisioterapia1{
-    display: flex;
-    justify-content: center;
-    margin: 30px;
-}
 
 
 table{
@@ -161,6 +151,7 @@ footer img{
 }
 
 .linkwpp2{
+    
     text-decoration: none;
     color: white;
 }
@@ -196,7 +187,41 @@ footer img{
         margin-top: 45px;
     }
 
-    .imgortopedia{
+    .imgmedicos{
         display: none;
     }
+    
+}
+
+@media screen and (max-width: 844px) {
+
+    body{
+        font-size: 18px;
+    }
+
+    header nav ul{
+        font-size: 15px;
+        padding: 45px 19px 0px 18px;
+    
+    }
+    .link1{
+        font-size: 15px;
+        color: black;
+    }
+
+    a.link2{
+        margin-top: 45px;
+    }
+
+    ul{
+        font-size: 10px;
+    }
+
+
+
+
+
+
+
+
 }
